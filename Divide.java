@@ -9,3 +9,10 @@ public class Divide implements Operate {
         return div;
     }
 }
+
+@Override
+    public Double getResult(Double... numbers) {
+        System.out.println("Modificación Archivo Add.java por Kevin Chaves"); 
+
+        Double sum = 0.0;
+        // ... resto del código
